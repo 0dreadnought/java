@@ -13,18 +13,23 @@ public class calculator {
         scanner.nextLine();
         return inp;
     }
+
+    public static void printOptions(){
+        System.out.println("Choose and type in an operation: ");
+        System.out.println("Addition");
+        System.out.println("Subtraction");
+        System.out.println("Multiplication");
+        System.out.println("Division");
+        System.out.println("Exit");
+
+    }
     public static void main(String[] args) throws Exception {
 
         Scanner scanner = new Scanner(System.in);
         String oper="";
 
         while(!oper.equals("Exit") && !oper.equals("exit")){
-            System.out.println("Choose and type in an operation: ");
-            System.out.println("Addition");
-            System.out.println("Subtraction");
-            System.out.println("Multiplication");
-            System.out.println("Division");
-            System.out.println("Exit");
+            printOptions();
 
             oper = scanner.nextLine();
 
@@ -46,7 +51,8 @@ public class calculator {
                         System.out.println("The answer is: " + ans);break;
                     case "Division","division":
                         inp = get_inp(scanner);
-                        ans = inp[0]/inp[1]; 
+                        if  (inp[1] == 0){ans=0;}
+                            else{ans = inp[0]/inp[1]; }
                         System.out.println("The answer is: " + ans);break;
                     default:
                         System.out.println("\n"+"\n"+"\n"+"Please enter a valid operation");break;
