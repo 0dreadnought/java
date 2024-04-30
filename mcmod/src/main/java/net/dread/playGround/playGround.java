@@ -1,6 +1,7 @@
 package net.dread.playGround;
 
 import com.mojang.logging.LogUtils;
+import net.dread.playGround.block.ModBlocks;
 import net.dread.playGround.item.ModCreativeModTabs;
 import net.dread.playGround.item.ModItems;
 import net.minecraft.client.Minecraft;
@@ -46,6 +47,7 @@ public class playGround
 
         ModCreativeModTabs.register(modEventBus);
         ModItems.register(modEventBus);
+        ModBlocks.register(modEventBus);
 
         // Register the commonSetup method for modloading
         modEventBus.addListener(this::commonSetup);

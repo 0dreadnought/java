@@ -1,0 +1,7 @@
+{
+  "variants": {
+    "": {
+      "model": "playground:block/es_block"
+    }
+  }
+}

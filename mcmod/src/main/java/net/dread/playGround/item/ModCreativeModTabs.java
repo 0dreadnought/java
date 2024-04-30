@@ -1,5 +1,6 @@
 package net.dread.playGround.item;
 
+import net.dread.playGround.block.ModBlocks;
 import net.dread.playGround.playGround;
 import net.minecraft.core.registries.Registries;
 import net.minecraft.network.chat.Component;
@@ -18,6 +19,8 @@ public class ModCreativeModTabs {
             .title(Component.translatable("creativetab.playground"))
             .displayItems((pParameters, pOutput)->{
                 pOutput.accept(ModItems.GIGA_CHAD_TOKEN.get());
+
+                pOutput.accept(ModBlocks.ES_BLOCK.get());
             }).build());
 
     public static void register (IEventBus eventBus){
