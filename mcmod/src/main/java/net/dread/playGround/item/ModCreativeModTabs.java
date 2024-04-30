@@ -19,8 +19,11 @@ public class ModCreativeModTabs {
             .title(Component.translatable("creativetab.playground"))
             .displayItems((pParameters, pOutput)->{
                 pOutput.accept(ModItems.GIGA_CHAD_TOKEN.get());
+                pOutput.accept(ModItems.JADE.get());
 
                 pOutput.accept(ModBlocks.ES_BLOCK.get());
+                pOutput.accept(ModBlocks.JADE_BLOCK.get());
+                pOutput.accept(ModBlocks.JADE_ORE_BLOCK.get());
             }).build());
 
     public static void register (IEventBus eventBus){
