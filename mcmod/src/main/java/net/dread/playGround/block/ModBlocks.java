@@ -2,10 +2,12 @@ package net.dread.playGround.block;
 
 import net.dread.playGround.item.ModItems;
 import net.dread.playGround.playGround;
+import net.minecraft.util.valueproviders.UniformInt;
 import net.minecraft.world.item.BlockItem;
 import net.minecraft.world.item.Item;
 import net.minecraft.world.level.block.Block;
 import net.minecraft.world.level.block.Blocks;
+import net.minecraft.world.level.block.DropExperienceBlock;
 import net.minecraft.world.level.block.SoundType;
 import net.minecraft.world.level.block.state.BlockBehaviour;
 import net.minecraftforge.eventbus.api.IEventBus;
@@ -26,7 +28,8 @@ public class ModBlocks {
             registerBlock("jade_block",()->new Block(BlockBehaviour.Properties.copy(Blocks.DIAMOND_BLOCK)));
 
     public static final RegistryObject<Block> JADE_ORE_BLOCK =
-            registerBlock("jade_ore_block",()->new Block(BlockBehaviour.Properties.copy(Blocks.DIAMOND_ORE)));
+            registerBlock("jade_ore_block",()->new DropExperienceBlock(BlockBehaviour.Properties.copy(Blocks.DIAMOND_ORE),
+                    UniformInt.of(1,3)));
 
     private static <T extends Block> RegistryObject<T> registerBlock(String name, Supplier<T> block){
         RegistryObject<T> toReturn = BLOCKS.register(name, block);
