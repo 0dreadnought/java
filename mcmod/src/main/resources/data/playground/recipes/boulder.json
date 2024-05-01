@@ -1,0 +1,21 @@
+{
+    "type":"minecraft:crafting_shaped",
+    "category": "misc",
+    "pattern": [
+        "#Y#",
+        "F#G",
+        "#X#"
+    ],
+    "key": {
+        "#": {
+            "item": "playground:jade"
+        },
+        "Y": {"item":"minecraft:cobblestone"},
+        "F": {"item": "minecraft:end_stone"},
+        "G": {"item": "minecraft:netherrack"},
+        "X": {"item": "minecraft:deepslate"}
+    },
+    "result": {
+        "item": "playground:es_block"
+    }
+}
