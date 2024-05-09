@@ -1,5 +1,6 @@
 package net.dread.playGround.item;
 
+import net.dread.playGround.item.custom.OreProspectorItem;
 import net.dread.playGround.playGround;
 import net.minecraft.world.item.Item;
 import net.minecraftforge.eventbus.api.IEventBus;
@@ -16,6 +17,9 @@ public class ModItems {
 
     public static final RegistryObject<Item> JADE = ITEMS.register("jade",
             ()->new Item(new Item.Properties()));
+
+    public static final RegistryObject<Item> ORE_PROSPECTOR = ITEMS.register("ore_prospector",
+            ()->new OreProspectorItem(new Item.Properties().durability(128)));
 
     public static void register(IEventBus eventBus){
         ITEMS.register(eventBus);

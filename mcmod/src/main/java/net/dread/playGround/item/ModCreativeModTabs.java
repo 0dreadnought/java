@@ -20,6 +20,7 @@ public class ModCreativeModTabs {
             .displayItems((pParameters, pOutput)->{
                 pOutput.accept(ModItems.GIGA_CHAD_TOKEN.get());
                 pOutput.accept(ModItems.JADE.get());
+                pOutput.accept(ModItems.ORE_PROSPECTOR.get());
 
                 pOutput.accept(ModBlocks.ES_BLOCK.get());
                 pOutput.accept(ModBlocks.JADE_BLOCK.get());
