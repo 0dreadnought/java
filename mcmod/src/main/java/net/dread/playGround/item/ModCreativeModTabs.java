@@ -25,6 +25,7 @@ public class ModCreativeModTabs {
                 pOutput.accept(ModBlocks.ES_BLOCK.get());
                 pOutput.accept(ModBlocks.JADE_BLOCK.get());
                 pOutput.accept(ModBlocks.JADE_ORE_BLOCK.get());
+                pOutput.accept(ModBlocks.EXTRACTOR_BLOCK.get());
             }).build());
 
     public static void register (IEventBus eventBus){
