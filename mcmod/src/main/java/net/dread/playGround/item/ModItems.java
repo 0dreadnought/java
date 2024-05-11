@@ -1,5 +1,6 @@
 package net.dread.playGround.item;
 
+import net.dread.playGround.item.custom.FuelItem;
 import net.dread.playGround.item.custom.OreProspectorItem;
 import net.dread.playGround.playGround;
 import net.minecraft.world.item.Item;
@@ -23,6 +24,9 @@ public class ModItems {
 
     public static final RegistryObject<Item> ONION = ITEMS.register("onion",
             ()->new Item(new Item.Properties().food(ModFoods.ONION)));
+
+    public static final RegistryObject<Item> FIRE_WOOD = ITEMS.register("fire_wood",
+            ()->new FuelItem(new Item.Properties(),1200));
 
     public static void register(IEventBus eventBus){
         ITEMS.register(eventBus);

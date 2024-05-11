@@ -22,6 +22,8 @@ public class ModCreativeModTabs {
                 pOutput.accept(ModItems.JADE.get());
                 pOutput.accept(ModItems.ORE_PROSPECTOR.get());
                 pOutput.accept(ModItems.ONION.get());
+                pOutput.accept(ModItems.FIRE_WOOD.get());
+
 
                 pOutput.accept(ModBlocks.ES_BLOCK.get());
                 pOutput.accept(ModBlocks.JADE_BLOCK.get());
