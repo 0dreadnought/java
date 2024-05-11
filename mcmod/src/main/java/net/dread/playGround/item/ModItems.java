@@ -21,6 +21,9 @@ public class ModItems {
     public static final RegistryObject<Item> ORE_PROSPECTOR = ITEMS.register("ore_prospector",
             ()->new OreProspectorItem(new Item.Properties().durability(128)));
 
+    public static final RegistryObject<Item> ONION = ITEMS.register("onion",
+            ()->new Item(new Item.Properties().food(ModFoods.ONION)));
+
     public static void register(IEventBus eventBus){
         ITEMS.register(eventBus);
     }
