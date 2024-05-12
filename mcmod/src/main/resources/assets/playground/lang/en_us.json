@@ -10,5 +10,11 @@
   "block.playground.jade_block": "Jade Block",
   "block.playground.extractor_block": "Extractor",
 
+
+  "tooltip.playground.ore_prospector.tooltip.vert": "Searches for ore under selected block",
+  "tooltip.playground.ore_prospector.tooltip.hor": "Searches for ore 5 blocks above and below selected block in selected chunk",
+  "tooltip.playground.ore_prospector.tooltip.r_click": "Right-Click air to switch modes",
+  "tooltip.playground.extractor.tooltip": "Efficiently extracts gems from ores",
+
   "creativetab.playground": "Play Ground"
 }
