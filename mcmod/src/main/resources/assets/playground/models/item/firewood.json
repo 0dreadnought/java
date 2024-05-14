@@ -1,7 +1,7 @@
 {
   "parent": "item/generated",
   "textures": {
-    "layer0": "playground:item/fire_wood"
+    "layer0": "playground:item/firewood"
   }
 
 }

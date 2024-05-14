@@ -9,25 +9,6 @@
           "children": [
             {
               "type": "minecraft:item",
-              "conditions": [
-                {
-                  "condition": "minecraft:match_tool",
-                  "predicate": {
-                    "enchantments": [
-                      {
-                        "enchantment": "minecraft:silk_touch",
-                        "levels": {
-                          "min": 1
-                        }
-                      }
-                    ]
-                  }
-                }
-              ],
-              "name": "playground:jade_ore_block"
-            },
-            {
-              "type": "minecraft:item",
               "functions": [
                 {
                   "enchantment": "minecraft:fortune",
@@ -38,7 +19,7 @@
                   "function": "minecraft:explosion_decay"
                 }
               ],
-              "name": "playground:jade"
+              "name": "playground:jade_ore_block"
             }
           ]
         }

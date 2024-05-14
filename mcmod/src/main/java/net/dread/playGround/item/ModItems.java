@@ -25,7 +25,7 @@ public class ModItems {
     public static final RegistryObject<Item> ONION = ITEMS.register("onion",
             ()->new Item(new Item.Properties().food(ModFoods.ONION)));
 
-    public static final RegistryObject<Item> FIRE_WOOD = ITEMS.register("fire_wood",
+    public static final RegistryObject<Item> FIREWOOD = ITEMS.register("firewood",
             ()->new FuelItem(new Item.Properties(),1200));
 
     public static void register(IEventBus eventBus){
