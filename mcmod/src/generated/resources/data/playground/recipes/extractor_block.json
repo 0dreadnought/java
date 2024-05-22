@@ -1,0 +1,24 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "category": "misc",
+  "key": {
+    "#": {
+      "tag": "minecraft:planks"
+    },
+    "X": {
+      "item": "minecraft:stone"
+    },
+    "Y": {
+      "item": "minecraft:diamond"
+    }
+  },
+  "pattern": [
+    "#Y#",
+    "XXX",
+    "#X#"
+  ],
+  "result": {
+    "item": "playground:extractor_block"
+  },
+  "show_notification": true
+}

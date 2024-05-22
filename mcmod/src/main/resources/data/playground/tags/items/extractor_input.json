@@ -1,9 +1,0 @@
-{
-  "values": [
-    "playground:jade_ore_block",
-    "#forge:ores/diamond",
-    "#forge:ores/quartz",
-    "#forge:ores/lapis",
-    "#forge:ores/emerald"
-  ]
-}

@@ -1,0 +1,10 @@
+// 1.20.1	2024-05-22T22:44:06.8562874	Block States: playground
+23b4d727a29b1f6eabef80917b3a3a5d731fd759 assets/playground/blockstates/es_block.json
+4a297615c9ba56721f7e9bf43815c7a44c6fdd61 assets/playground/blockstates/jade_block.json
+a185fe017b1ef26f71b3843b0cc15005d28624ad assets/playground/blockstates/jade_ore_block.json
+f64d920ad7206cee07b213e61738b7ebefaf7c75 assets/playground/models/block/es_block.json
+4244b83265f8a98e4f7ca9ab22bdbc2b45d8203c assets/playground/models/block/jade_block.json
+8e4a8e351d1d33879cc8ee3541063eea35e5d7d1 assets/playground/models/block/jade_ore_block.json
+de319b6393901ff0e08e3c6703dc52b5bcbe258f assets/playground/models/item/es_block.json
+a32de1510f62fcddbd733901cf36b6d19e3ae331 assets/playground/models/item/jade_block.json
+710d0699607c95cb1dbb9cc824872d3f518b7420 assets/playground/models/item/jade_ore_block.json

@@ -1,0 +1,10 @@
+// 1.20.1	2024-05-22T22:44:06.8602865	Tags for minecraft:block mod id playground
+4d3e609dd35fb285176c8744587d37f84d7a8fab data/forge/tags/blocks/needs_netherite_tool.json
+35133e95f1c8fdd7a1c21afcc231fc0bffefb9a8 data/minecraft/tags/blocks/mineable/axe.json
+35133e95f1c8fdd7a1c21afcc231fc0bffefb9a8 data/minecraft/tags/blocks/mineable/hoe.json
+8eb09e256b45c7aeee33e1fac8a58c9c60ecb2fa data/minecraft/tags/blocks/mineable/pickaxe.json
+35133e95f1c8fdd7a1c21afcc231fc0bffefb9a8 data/minecraft/tags/blocks/mineable/shovel.json
+35133e95f1c8fdd7a1c21afcc231fc0bffefb9a8 data/minecraft/tags/blocks/needs_diamond_tool.json
+819bfebf1e83de7ba98abbcff550be18660967b1 data/minecraft/tags/blocks/needs_iron_tool.json
+93852802a75d35cdb92cbf6a58ce11a74a9c147a data/minecraft/tags/blocks/needs_stone_tool.json
+2b56986b89f75bbbf35ed18e90017481e0f332c1 data/playground/tags/blocks/allores.json

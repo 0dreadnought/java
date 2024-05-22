@@ -12,6 +12,8 @@ public class ModTags {
 
     public static class Blocks{
 
+        public static final TagKey<Block> ALLORES = tag("allores");
+
 
         private static TagKey<Block> tag(String name){
             return BlockTags.create(new ResourceLocation(playGround.MODID, name));
